@@ -1,0 +1,8 @@
+<h1>Airplanes#index</h1>
+<ul>
+  <% @airplanes.each do |airplane| %>
+    <li>
+      <%= link_to airplane.name, airplane %>
+    </li>
+  <% end %>
+</ul>
